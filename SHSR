@@ -1,0 +1,15 @@
+task main()
+{
+int T = 0;
+wait1Msec(1000);
+
+
+while (T<30) {
+	motor[motorC]=100;
+	wait1Msec(1000);
+	motor[motorC]=-100;
+	wait1Msec(1000);
+	T=T+1;
+}	
+
+}
