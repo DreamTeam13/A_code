@@ -1,0 +1,6 @@
+task main()
+{
+while(1==1){
+motor[motorA]=100;
+}
+}
